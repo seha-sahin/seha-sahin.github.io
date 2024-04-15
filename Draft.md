@@ -36,22 +36,11 @@
         .cta-button:hover {
             background-color: #0056b3;
         }
-        .banner {
-            background-color: #007bff;
-            color: #fff;
-            padding: 10px 0;
-            margin-bottom: 20px;
-        }
     </style>
 </head>
 <body>
-    <div class="banner">
-        <div class="container">
-            <h1>Veritatis: MAIN TEXT</h1>
-        </div>
-    </div>
-
     <div class="container">
+        <h1>Veritatis: MAIN TEXT</h1>
         <p>Text1</p>
         <p>Text2</p>
         <a href="#" class="cta-button">ACTION!</a>
