@@ -6,7 +6,7 @@
     <title>Veritatis</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Tiro Tamil', Arial, sans-serif;
             margin: 0;
             padding: 0;
             background-image: url('https://images.unsplash.com/photo-1635942046031-041e9baea8bd?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
@@ -21,14 +21,13 @@
             padding: 20px;
             text-align: center;
         }
-        h1 {
+        h1, p {
             color: #FFFFFF;
-            font-size: 72px;
-        }
-        p {
-            color: #FFFFFF;
-            margin-bottom: 20px;
             font-size: 24px;
+            margin-bottom: 20px;
+        }
+        h1 {
+            font-size: 72px;
         }
         .cta-button {
             display: inline-block;
@@ -48,23 +47,13 @@
             padding: 10px 0; /* Adjusted padding */
             margin-bottom: 20px;
         }
-
-        /* Media queries for responsiveness */
-        @media only screen and (max-width: 600px) {
-            .container {
-                padding: 10px;
-            }
-            h1 {
-                font-size: 48px;
-            }
-            p {
-                font-size: 18px;
-            }
-            .cta-button {
-                padding: 8px 16px;
-            }
+        .container ul {
+            list-style-type: none;
+            text-align: left;
+            padding: 0;
         }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Tamil&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="banner">
@@ -73,11 +62,11 @@
         </div>
     </div>
 
-    <div class="container" style="text-align: left;">
+    <div class="container">
       <ul>
-        <p><li>Verify news stories and fact-check online content seamlessly</li></p>
-        <p></p><li>Experience technology-enabled ethical journalism</li></p>
-        <p></p><li>Access accurate news and unbiased information</li></p>
+        <li>Verify news stories and fact-check online content seamlessly</li>
+        <li>Experience technology-enabled ethical journalism</li>
+        <li>Access accurate news and unbiased information</li>
       </ul>
     </div>
 
